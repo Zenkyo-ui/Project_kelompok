@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program Kasir</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <h1>Program Kasir</h1>
+
+    <div class="container">
+        <input type="text" id="namaBarang" placeholder="Nama Barang" />
+        <input type="number" id="hargaBarang" placeholder="Harga Barang" />
+        <input type="number" id="qtyBarang" placeholder="Jumlah Beli" />
+        <button id="tambahBtn">Tambah Barang</button>
+    </div>
+
+    <h2>Daftar Belanja</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Barang</th>
+                <th>Harga</th>
+                <th>Jumlah</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="listBarang"></tbody>
+    </table>
+
+    <h2>Barang Yang Dibeli</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Nama Barang</th>
+            <th>Harga</th>
+            <th>Qty</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody id="barangDibeli"></tbody>
+</table>
+
+
+    <h3 id="grandTotal">Total: Rp 0</h3>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
