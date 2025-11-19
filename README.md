@@ -1,6 +1,6 @@
 # Project_kelompok 2
 
-anggota:
+# anggota:
 1. Rizqy Fauzy
 2. Nazwa
 3. Fitri
